@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+header .navbar .navbar-nav .nav-item .nav-link, header .header-info a, .book-section .book-info, footer ul li a {
+  -webkit-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px; }
+
+/*header section start*/
+header {
+  background: #F0FFF0; }
+  header .navbar-brand img {
+    width: 180px; }
+  header .navbar {
+    padding: 20px 0; }
+    header .navbar .navbar-nav .nav-item {
+      margin-left: 5px; }
+      header .navbar .navbar-nav .nav-item .nav-link {
+        color: #000000;
+        border-radius: 30px;
+        font-size: 16px;
+        padding: 8px 22px; }
+        header .navbar .navbar-nav .nav-item .nav-link:hover {
+          color: white;
+          background: #21B573; }
+      header .navbar .navbar-nav .nav-item:last-child .nav-link {
+        color: white;
+        background: #21B573; }
+  header .header-info {
+    padding: 50px 0; }
+    header .header-info h4 {
+      color: #FC5C27;
+      font-size: 16px; }
+    header .header-info h1 {
+      color: #000000;
+      font-size: 52px !important;
+      font-weight: 700;
+      line-height: 1.4; }
+    header .header-info span {
+      color: #21B573; }
+    header .header-info img {
+      color: red; }
+    header .header-info p {
+      color: #6C6B6B;
+      font-size: 16px;
+      line-height: 2.5; }
+    header .header-info a {
+      color: #fff;
+      border-radius: 30px;
+      font-size: 14px;
+      padding: 8px 22px;
+      background: #21B573;
+      border: 2px solid transparent;
+      margin-top: 10px; }
+      header .header-info a:hover {
+        color: #333;
+        border: 2px solid #21B573;
+        background: #fff; }
+
+/*header section end*/
+/*book section start*/
+.book-section {
+  text-align: center;
+  padding: 70px 0; }
+  .book-section .book-info {
+    padding: 30px 0;
+    border-radius: 10px; }
+    .book-section .book-info:hover {
+      box-shadow: 0 20px 40px #0000001c; }
+    .book-section .book-info img {
+      height: 90px;
+      margin-bottom: 30px; }
+    .book-section .book-info h3 {
+      color: #6353a2;
+      font-size: 25px; }
+    .book-section .book-info p {
+      color: #6c6b6b;
+      font-size: 17px; }
+
+/*book section end*/
+/*course section start*/
+.course-section {
+  margin-bottom: 30px; }
+  .course-section h1 {
+    text-align: center;
+    color: #5f4f9e;
+    font-size: 36px;
+    font-weight: 600; }
+  .course-section .course-info {
+    border: none;
+    box-shadow: 0 20px 40px #00000014; }
+    .course-section .course-info .card-body img {
+      margin-bottom: 20px; }
+    .course-section .course-info .card-body h5 {
+      color: #5c4f92;
+      font-size: 22px;
+      font-weight: 500; }
+    .course-section .course-info .card-body p {
+      color: #6c6b6b;
+      margin-bottom: 0;
+      font-size: 17px; }
+    .course-section .course-info .card-body a {
+      color: #fff;
+      border-radius: 30px;
+      font-size: 16px;
+      padding: 6px 20px;
+      background: #21B573;
+      margin: 15px 0;
+      margin-bottom: 25px; }
+      .course-section .course-info .card-body a:hover {
+        background: #16ca79; }
+    .course-section .course-info .card-body ul li img {
+      width: 22px;
+      margin-right: 5px;
+      margin-bottom: 0; }
+    .course-section .course-info .card-body ul li span {
+      color: #6c6b6b;
+      font-weight: 500;
+      font-size: 16px; }
+
+/*course section end*/
+/*testimonial section start*/
+.textimonial {
+  padding: 80px 0; }
+  .textimonial h1 {
+    color: #000000;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: -0.4px;
+    margin-bottom: 50px; }
+  .textimonial img {
+    width: 130px; }
+  .textimonial p {
+    color: #0c0c0c;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 0;
+    padding-right: 20px; }
+
+/*testimonial section end*/
+/*footer section start*/
+footer {
+  background: #282531;
+  color: white;
+  padding: 50px 0; }
+  footer p {
+    color: lightgray;
+    font-size: 15px;
+    margin-right: 30px; }
+  footer:last-child p {
+    text-align: center; }
+  footer ul {
+    margin: 0;
+    padding: 0; }
+    footer ul li {
+      list-style: none; }
+      footer ul li a {
+        color: lightgray;
+        font-size: 15px;
+        text-decoration: none;
+        line-height: 2; }
+        footer ul li a:hover {
+          color: lightgray;
+          text-decoration: underline; }
+  footer .copyright p {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0; }
+    footer .copyright p a {
+      text-decoration: none;
+      color: lightgray;
+      font-size: 16px; }
+      footer .copyright p a:hover {
+        text-decoration: underline; }
+
+/*footer section end*/
+@media (max-width: 991px) {
+  .navbar {
+    width: 100%; }
+
+  .navbar-nav {
+    justify-content: center;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+
+  header .header-info h1 {
+    font-size: 41px !important; }
+
+  header .header-info p {
+    font-size: 15px;
+    line-height: 1.6; }
+
+  .book-section .book-info h3 {
+    font-size: 18px; }
+
+  .book-section .book-info p {
+    font-size: 14px; }
+
+  .course-section .course-info .card-body ul li span {
+    font-size: 14px; }
+
+  .textimonial img {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px; }
+
+  .textimonial p {
+    font-size: 16px;
+    text-align: center; } }
+@media (max-width: 767px) {
+  .navbar {
+    padding: 0 10px; }
+
+  header .header-info img {
+    padding: 30px; }
+
+  .book-section {
+    text-align: center;
+    padding: 40px 0; }
+
+  .course-section .course-info .card-body ul li span {
+    color: #6c6b6b;
+    font-weight: 500;
+    font-size: 13px; }
+
+  .course-section .course-info .card-body h5 {
+    font-size: 18px; }
+
+  .course-section .course-info .card-body p {
+    font-size: 16px; }
+
+  .textimonial img {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px; }
+
+  .textimonial p {
+    font-size: 14px;
+    text-align: center; }
+
+  .textimonial h1 {
+    font-size: 26px;
+    margin-bottom: 21px; }
+
+  footer ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px; }
+
+  .book-section .book-info h3 {
+    font-size: 18px; }
+
+  .book-section .book-info p {
+    font-size: 14px; }
+
+  .course-section .course-info .card-body h5 {
+    font-size: 17px; }
+
+  .course-section .course-info .card-body p {
+    font-size: 15px; }
+
+  .course-section .course-info .card-body a {
+    font-size: 14px; }
+
+  .textimonial {
+    padding: 40px 0; } }
+@media (max-width: 575px) {
+  .navbar {
+    padding-left: 10px !important;
+    padding-right: 10px !important; }
+
+  header {
+    text-align: center !important; }
+
+  header .header-info h1 {
+    font-size: 35px !important;
+    text-align: center; }
+
+  header .header-info p {
+    font-size: 14px;
+    text-align: center; }
+
+  header .nav-item .nav-link {
+    font-size: 13px !important;
+    padding: 8px 16px !important; }
+
+  .book-section {
+    text-align: center;
+    padding: 40px 0 !important; }
+
+  footer .copyright p {
+    text-align: center;
+    margin: 0; }
+
+  footer .col-xl-12 {
+    text-align: center; }
+
+  .book-section {
+    padding: 10px 0 !important; }
+
+  .course-section .course-info .card-body a {
+    margin: 5px 0; }
+
+  .course-section .course-info .card-body ul li:last-child {
+    display: none; }
+
+  footer ul li a {
+    font-size: 13px; }
+
+  footer p {
+    font-size: 14px; }
+
+  .course-info .card-body img {
+    margin-bottom: 20px;
+    width: 85%;
+    display: block;
+    margin: 0 auto; }
+
+  .book-section .book-info {
+    padding: 10px 0;
+    border-radius: 10px; }
+
+  .course-section ul li {
+    text-align: center;
+    margin: auto;
+    display: flex; }
+
+  .course-section .card-body {
+    text-align: center; }
+
+  .navbar-nav {
+    justify-content: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    display: inline-block; }
+
+  header .navbar .navbar-nav .nav-item .nav-link {
+    margin-bottom: 5px; }
+
+  header .header-info {
+    padding-top: 15px; } }
+
+/*# sourceMappingURL=style.css.map */
